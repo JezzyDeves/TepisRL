@@ -2,7 +2,7 @@
 import tcod as libtcod
 
 from input_handlers import handle_keys
-
+#Main engine function
 def main():
     screen_width = 80
     screen_height = 50
@@ -18,7 +18,7 @@ def main():
 
     key = libtcod.Key()
     mouse = libtcod.Mouse()
-
+    #Game loop
     while not libtcod.console_is_window_closed():
         libtcod.sys_check_for_event(libtcod.EVENT_KEY_PRESS, key, mouse)
 

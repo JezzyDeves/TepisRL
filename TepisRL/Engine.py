@@ -1,3 +1,4 @@
+#Import functions
 import tcod as libtcod
 
 from input_handlers import handle_keys

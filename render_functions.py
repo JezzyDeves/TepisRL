@@ -1,3 +1,4 @@
+#Render functions that can be called by Engine.py
 import tcod as libtcod
 
 def render_all(con, entities, screen_width, screen_height):

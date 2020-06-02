@@ -1,2 +1,2 @@
 # TepisRL
-A libtcod roguelike with heavy influence from Castlevania
+A libtcod roguelike with heavy influence from Castlevania.
